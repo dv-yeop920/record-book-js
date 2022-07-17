@@ -1,3 +1,3 @@
 # record-book-js update
 
-js got so much better 
+HTML & CSS & js got so much fun!!
