@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>record-book</title>
+</head>
+<body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <h1 id="clock">00:00:00</h1>
+
+    <form class="hidden" id="login-form" >
+        <div class="login-form__column">
+        <input required maxlength="15"
+        type="text" placeholder="Plan title"/>
+    </div>
+    </form>
+
+    <h2 id="greeting" class="hidden"> </h2>
+
+    <form id="todo-form">
+        <input type="text" placeholder="write a to do and press Enter" required />
+    </form>
+    
+    <ul id="todo-list"></ul>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="no-mobile">
+        <span>your screen is too big 😭</span>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
